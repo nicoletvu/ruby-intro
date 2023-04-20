@@ -8,4 +8,19 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+tacos = ["carnitas", "carne asada", "pollo", "pescado", "al pastor"]
+
+index = 0
+
+loop do
+
+    if index == tacos.count # get taco list count
+        break
+    end
+
+    taco = tacos[index] # calling the taco type at the specified index
+    puts "#{taco} tacos!"
+    index = index + 1
+
+end

@@ -31,15 +31,15 @@ bitcoin = bitcoin.to_f
 # 3. inspect the bitcoin_data hash
 
 # USD
-bitcoin_rate_usd = bitcoin_data["bpi"]["USD"]["rate_float"];
+bitcoin_rate_usd = bitcoin_data["bpi"]["USD"]["rate_float"]
 bitcoin_value_usd = bitcoin * bitcoin_rate_usd
 
 # Euros
-bitcoin_rate_eur = bitcoin_data["bpi"]["EUR"]["rate_float"];
+bitcoin_rate_eur = bitcoin_data["bpi"]["EUR"]["rate_float"]
 bitcoin_value_eur = bitcoin * bitcoin_rate_eur
 
 # GBP
-bitcoin_rate_gbp = bitcoin_data["bpi"]["GBP"]["rate_float"];
+bitcoin_rate_gbp = bitcoin_data["bpi"]["GBP"]["rate_float"]
 bitcoin_value_gbp = bitcoin * bitcoin_rate_gbp
 
 
