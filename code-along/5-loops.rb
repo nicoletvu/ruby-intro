@@ -13,14 +13,19 @@ tacos = ["carnitas", "carne asada", "pollo", "pescado", "al pastor"]
 
 index = 0
 
-loop do
+# loop do
 
-    if index == tacos.count # get taco list count
-        break
-    end
+#     if index == tacos.count # get taco list count
+#         break
+#     end
 
-    taco = tacos[index] # calling the taco type at the specified index
+#     taco = tacos[index] # calling the taco type at the specified index
+#     puts "#{taco} tacos!"
+#     index = index + 1
+
+# end
+
+for taco in tacos
     puts "#{taco} tacos!"
-    index = index + 1
-
 end
+
